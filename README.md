@@ -1,5 +1,3 @@
-# Leetcode_StepByStep
-
 
 ## Reference Links
 [算法可视化](https://github.com/MisterBooo/LeetCodeAnimation)
