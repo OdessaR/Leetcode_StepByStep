@@ -7,10 +7,12 @@
 
 ## Task List
 
-### Easy
+
 
 1007 - 20. Valid Parentheses
 
 1008 - 1. Two Sum
 
 1009 - 2. Add Two Numbers
+
+1010 - 3. Longest Substring Without Repeating Characters
