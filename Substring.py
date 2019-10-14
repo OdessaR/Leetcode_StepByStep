@@ -18,6 +18,8 @@ print("Sliced substring with slice(3,17,1):", slice_string[obj_slice])
 
 #Longest substring without repeating characters
 
+#1. Bruteforce: runtime exceeded
+#list all substrings and compare lenth.
 o_string = "pwwkew"
 def UniqueString(string):
     i = 0
@@ -30,9 +32,6 @@ def UniqueString(string):
         if tmp_string in sub_string:
             return False
     return True    
-
-#Bruteforce
-#list all substrings and compare lenth.
 
 start = 0
 end = 1
