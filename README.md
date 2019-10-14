@@ -18,3 +18,6 @@
 1010 - 3. Longest Substring Without Repeating Characters
 
 - Naive solution
+- Slide Window 1012
+
+1013 - Single Number (need look into more solutions)
