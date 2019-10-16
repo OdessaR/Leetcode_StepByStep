@@ -1,14 +1,15 @@
-s = "abcabcbb"
+nums = [0,1,0,3,12]
+pos = 0
+        
+for i in range(len(nums)):
+    el = nums[i]
+    if el != 0:
+        nums[pos], nums[i] = nums[i], nums[pos]
+        print(nums)
+        pos +=1
 
-str_list = []
-max_length = 0
-for x in s:
-    if x in str_list:
-        print(x)
-        print(str_list.index(x))
-        str_list = str_list[str_list.index(x)+1:]
-        print(str_list)
-    
-    str_list.append(x)
-    print(str_list)
-    max_length = max(max_length, len(str_list))
+
+j = 1
+k = 2
+j, k = k, j
+print(j,k)
