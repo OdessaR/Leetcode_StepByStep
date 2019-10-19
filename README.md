@@ -21,3 +21,5 @@
 - Slide Window 1012
 
 1013 - Single Number (need look into more solutions)
+
+1019 - 补档
